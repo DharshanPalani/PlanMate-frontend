@@ -21,7 +21,7 @@ const RegisterScreen = () => {
             <Text style={formStyles.title}>Register</Text>
             <TextInput
                 style={formStyles.input}
-                placeholder="Email"
+                placeholder="Username"
                 onChangeText={setUserName}
                 value={username}
             />
