@@ -27,7 +27,7 @@ function LoginScreen() {
             <Text style={formStyles.title}>Login</Text>
             <TextInput
                 style={formStyles.input}
-                placeholder="Email"
+                placeholder="Username"
                 onChangeText={setUsername}
             />
             <TextInput
