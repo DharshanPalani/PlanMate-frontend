@@ -11,7 +11,7 @@ const formStyles = StyleSheet.create({
     card: {
         width: '90%',
         maxWidth: 400,
-        padding: 30,
+        padding: 25,
         backgroundColor: '#EAE7DC',
         borderRadius: 20,
         shadowColor: "#000",
@@ -52,6 +52,12 @@ const formStyles = StyleSheet.create({
         fontSize: 18,
         fontWeight: "bold",
         textTransform: "uppercase",
+    },
+    forgotPassword: {
+        marginTop: 10,
+        fontSize: 16,
+        color: "#4F698C",
+        textDecorationLine: "underline",
     },
 });
 
