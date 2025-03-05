@@ -4,18 +4,60 @@ const formStyles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: '#4F698C',
+        paddingHorizontal: 20,
+    },
+    card: {
+        width: '90%',
+        maxWidth: 400,
+        padding: 25,
+        backgroundColor: '#EAE7DC',
+        borderRadius: 20,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.2,
+        shadowRadius: 8,
+        elevation: 6,
+        alignItems: 'center',
     },
     title: {
-        fontSize: 24,
-        marginBottom: 20
+        fontSize: 26,
+        fontWeight: 'bold',
+        color: "#0D0D0D",
+        marginBottom: 20,
     },
     input: {
-        width: 250,
-        height: 40,
-        borderBottomWidth: 1,
-        marginBottom: 20,
-        padding: 5
+        width: '100%',
+        height: 50,
+        borderWidth: 2,
+        borderColor: "#BFAD54",
+        marginBottom: 15,
+        paddingHorizontal: 15,
+        color: "#0D0D0D",
+        fontSize: 18,
+        backgroundColor: "#F8F8F8",
+        borderRadius: 12,
+    },
+    button: {
+        backgroundColor: "#BFAD54",
+        paddingVertical: 14,
+        width: '100%',
+        borderRadius: 12,
+        alignItems: "center",
+        marginTop: 15,
+    },
+    buttonText: {
+        color: "#0D0D0D",
+        fontSize: 18,
+        fontWeight: "bold",
+        textTransform: "uppercase",
+    },
+    forgotPassword: {
+        marginTop: 10,
+        fontSize: 16,
+        color: "#4F698C",
+        textDecorationLine: "underline",
     },
 });
 

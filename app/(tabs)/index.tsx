@@ -6,19 +6,21 @@ import React from 'react';
 const HomeScreen = () => {
   return (
     <View style={homeStyle.container}>
-      <Text style={homeStyle.title}>Welcome</Text>
+      <View style={homeStyle.card}>
+        <Text style={homeStyle.title}>Welcome</Text>
 
-      <Link href="/Login" asChild>
-        <TouchableOpacity style={homeStyle.button}>
-          <Text style={homeStyle.buttonText}>Login</Text>
-        </TouchableOpacity>
-      </Link>
+        <Link href="/Login" asChild>
+          <TouchableOpacity style={homeStyle.button}>
+            <Text style={homeStyle.buttonText}>Login</Text>
+          </TouchableOpacity>
+        </Link>
 
-      <Link href="/Register" asChild>
-        <TouchableOpacity style={homeStyle.button}>
-          <Text style={homeStyle.buttonText}>Register</Text>
-        </TouchableOpacity>
-      </Link>
+        <Link href="/Register" asChild>
+          <TouchableOpacity style={homeStyle.button}>
+            <Text style={homeStyle.buttonText}>Register</Text>
+          </TouchableOpacity>
+        </Link>
+      </View>
     </View>
   );
 };
