@@ -14,7 +14,7 @@ const RegisterScreen = () => {
             return;
         }
         try {
-            const data = await registerUser({ username, password });
+            const data = await registerUser(username, password);
             alert(data.message);
         } catch (e: any) {
             alert(e.response?.data?.error || "Registration failed");
